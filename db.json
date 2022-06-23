@@ -1,0 +1,20 @@
+{
+    "statistics": [
+        {
+            "id": 1,
+            "title": "Admitted",
+            "content": "In ICU."
+        },
+        {
+            "id": 2,
+            "title": "Discharged",
+            "content": "Coming home."
+
+        },
+        {
+             "id": 3,
+             "title": "Dead",
+             "content": "Condolences."
+        }
+    ]
+}
