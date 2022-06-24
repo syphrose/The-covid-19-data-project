@@ -8,7 +8,8 @@
 }
 
 click the links provided
-## Live link()https://github.com/syphrose/The-covid-19-data-project/tree/master)
+## Live
+https://syphrose.github.io/The-covid-19-data-project/
 ## Known Bugs
 {API can fail. }
 I used the following technologies; 
