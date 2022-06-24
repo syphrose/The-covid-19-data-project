@@ -66,16 +66,35 @@ main .image img{
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 125px ;
-    height: 20px;
+    height: 100vh;
+    overflow: scroll;
 
 }
-
-
-
+.container ul{
+    padding-left: 20px;
+    -webkit-columns:2;
+    -moz-columns:2;
+    columns:2;
+}
+.container ul li{
+    list-style: none;
+    color: black;
+    display: block;
+    
+}
 footer{
     padding: none;
     text-align: center;
     background: #ddd;
+    height: 35px;
+
+}
+.footer.footer-content{
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
 }
 /* .header {
     padding: 80px 15%;

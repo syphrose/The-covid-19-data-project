@@ -1,22 +1,32 @@
-fetch('https://covid-19.dataflowkit.com/v1/usa')
-.then(res=>res.json())
-.then(data=>console.log(data))
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '8fd1e108cdmshbd7af98f47bd8c0p117edejsndc62622f656a',
+		'X-RapidAPI-Host': 'vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com'
+	}
+};
+
+// fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/', options)
+// 	.then(response => response.json())
+// 	.then(response => console.log(response))
+// 	.catch(err => console.error(err));
 
 let fetchStatistics =async() => {
-    let statistics = await fetch('https://covid-19.dataflowkit.com/v1/usa')
-    let data = await statistics.json()
-    console.log(data.items.volumeInfo)
-    let response = data.items
-    response.map((statisticsdata) => {
-        console.log(statisticsdata)
+    let resp = await fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/', options)
+    let data = await resp.json()
+    console.log(data)
+    let response = data
+    response.map((stats) => {
+        // console.log(stats.country)
+    
+      const list = document.querySelector('.container ul')
+      const li= document.createElement("li");
+      li.textContent = `${stats.Country} total deaths: ${stats.TotalDeaths}`
+      list.appendChild(li);
+
     })
 
-      const list = document.querySelector('.statistics-display.list')
-      const li= document.createElement("li");
-      li.textContent = statisticsdata.volumeInfo.title
-      list.appendChild(li);
-}
 
+  }
 
-
-fetchStatistics()
+document.addEventListener('DOMContentLoaded', ()=> {fetchStatistics()})
