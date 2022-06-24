@@ -30,3 +30,11 @@ let fetchStatistics =async() => {
   }
 
 document.addEventListener('DOMContentLoaded', ()=> {fetchStatistics()})
+
+function openlogin(){
+  document.getElementById('formlogin').style.display = "block"
+}
+
+function closeform(){
+  document.getElementById('formlogin').style.display = "none"
+}
