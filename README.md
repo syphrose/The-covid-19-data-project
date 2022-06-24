@@ -6,20 +6,17 @@
 ## Setup/Installation Requirements
 * Clone the repo {git clone https://github.com/syphrose/The-covid-19-data-project/tree/masterhttps://github.com/syphrose/
 }
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{click the links provided}
+
+click the links provided
 ## Live link()https://github.com/syphrose/The-covid-19-data-project/tree/master)
 ## Known Bugs
 {API can fail. }
-## Technologies Used
+I used the following technologies; 
 HTML
 CSS
 JAVASCRIPT
 
-{I used Javascript to fetch data and to call out functions and handle DOM manipulation. I used CSS to  style the page elements}
+I used Javascript to fetch data and to call out functions and handle DOM manipulation. I used CSS to  style the page elements}
 ## Support and contact details
 {I have shared my Email Account as well as Facebook page and Linkedin.}
 ### License
