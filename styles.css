@@ -9,13 +9,13 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: rgb(78, 78, 150);
+    background-color: rgb(234, 234, 250);
 }
 
 nav{
     position: relative;
     display: flex;
-    background-color: violet;
+    background-color: rgb(204, 149, 149);
     justify-content: space-between;
     width: 100%;
 }
@@ -136,7 +136,7 @@ main .image img{
 .footer{
     padding: none;
     text-align: center;
-    background: #ddd;
+    background: rgb(204, 149, 149);
     height: 80px;
     display: flex;
     width: 100%;
