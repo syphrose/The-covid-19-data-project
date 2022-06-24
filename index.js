@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   // 	.catch(err => console.error(err));
 
   let fetchStatistics =async() => {
-      let resp = await fetch('https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/', options)
+      let resp = await fetch('https://github.com/syphrose/The-covid-19-data-project/tree/master, options)
       let data = await resp.json()
       console.log(data)
       let response = data
