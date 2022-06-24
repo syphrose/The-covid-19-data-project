@@ -60,13 +60,13 @@ main .image img{
 .container{
     padding-left: 70px;
     background-color:rgb(65, 202, 243);
-    width: 1060px;
-    max-width: 50em;
+    width: 85%;
+    /* max-width: 50em; */
     padding: 3em 2.5em; 
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 125px ;
+    margin-left: 115px ;
     height: 100vh;
     overflow: scroll;
 
