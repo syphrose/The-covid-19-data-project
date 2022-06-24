@@ -137,7 +137,7 @@ main .image img{
     padding: none;
     text-align: center;
     background: #ddd;
-    height: 50px;
+    height: 80px;
     display: flex;
     width: 100%;
 
@@ -147,7 +147,10 @@ main .image img{
     box-sizing: border-box;
     text-align: center;
     padding: 12px;
-    font-size: 32px;
+    font-size: 16px;
+}
+.footer .footer-content p{
+    display: block;
 }
 /* .header {
     padding: 80px 15%;
